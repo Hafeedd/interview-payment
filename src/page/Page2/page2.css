@@ -1,0 +1,46 @@
+.register-cont div h1, .register-cont div h3{
+    color: rgb(97, 186, 245);
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.input-heading{
+    letter-spacing: 0.08rem;
+}
+
+.register-input{
+    font-size: 14px;
+    padding: 4px 10px;
+}
+
+.register-input:focus{
+    box-shadow: none !important;
+    border: none !important;
+    outline: 2px solid rgb(97, 186, 245);
+}
+
+.register-input.btn{
+    padding: 1px 10px;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0.09rem;
+    background-color: rgb(97, 186, 245);
+}
+
+.reg-image{
+    width: 450px;
+}
+
+@media screen and (width<1000px) {
+    .reg-image{
+        width: 350px;
+    }
+    
+}
+
+.register-footer-text{
+    font-size: 12px;
+    padding-top: 1rem;
+    color: gray;
+}
